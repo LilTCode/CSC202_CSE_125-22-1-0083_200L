@@ -1,0 +1,6 @@
+#Data type conversion
+two_number = input("Write any 2 digits between 0-9: ")
+
+addition = int(two_number[0]) + int(two_number[-1])
+
+print(addition)
